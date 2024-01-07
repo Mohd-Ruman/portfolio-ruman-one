@@ -1,0 +1,35 @@
+.header{
+    max-width: 100%;
+    border-bottom: 1px solid var(--color-outline);
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    flex:1;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header__logo p{
+    font-family: var(--yapari-bold);
+    font-weight: bold;
+    font-size: 32px;
+    color: var(--color-white);
+    margin-left: 75px;
+    
+}
+
+.header__nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap:40px;
+    margin-right: 70px;
+}
+
+.header__nav ul li a{
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: var(--yapari-medium);
+    font-size: 14px;
+    text-transform: uppercase;
+}
